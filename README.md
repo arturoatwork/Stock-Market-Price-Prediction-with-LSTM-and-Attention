@@ -25,7 +25,7 @@ NewsAPI + TextBlob (sentiment analysis)
 
 Matplotlib (visualization)
 
-📊 Goal:
+Goal:
 Improve prediction accuracy and trading signal quality by fusing structured data (price, volume, international markets) and unstructured data (financial news sentiment).
 
 This project demonstrates the power of multi-modal data integration and serves as a foundation for building advanced quantitative trading strategies.
