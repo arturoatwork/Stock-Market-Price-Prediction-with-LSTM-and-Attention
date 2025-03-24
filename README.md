@@ -1,0 +1,2 @@
+# Market-Direction-Prediction-with-LSTM-Global-Indices-and-News-Sentiment
+This project builds an LSTM-based deep learning model to predict the next-day direction (up or down) of major U.S. stock market indices, including the S&amp;P 500, NASDAQ, Dow Jones, Russell 2000, and NYSE Composite. The model combines historical price data with technical indicators, global market trends, and news sentiment analysis.
