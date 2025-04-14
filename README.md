@@ -1,31 +1,34 @@
-# Market-Direction-Prediction-with-LSTM-Global-Indices-and-News-Sentiment
-This project builds an LSTM-based deep learning model to predict the next-day direction (up or down) of major U.S. stock market indices, including the S&amp;P 500, NASDAQ, Dow Jones, Russell 2000, and NYSE Composite. The model combines historical price data with technical indicators, global market trends, and news sentiment analysis.
+# 📈 Stock Price Prediction with LSTM & Attention: For American Airlines (AAL), Tesla (TSLA), and Microsoft (MSFT)
 
-Features:
-LSTM (Long Short-Term Memory) model for time series classification
+This project applies **Long Short-Term Memory (LSTM)** neural networks, enhanced with **Self-Attention**, to predict the stock prices of **American Airlines (AAL), Tesla (TSLA), and Microsoft (MSFT)** using the last 60 days of historical data.
 
-Technical indicators: rolling moving averages and momentum signals
+The goal is to forecast the next 4 days of stock prices with an emphasis on model flexibility, sequential learning, and real-time usability.
 
-Global market influence: includes Nikkei (Japan), FTSE (UK), and DAX (Germany)
+---
 
-News sentiment scoring using NLP (TextBlob) and the NewsAPI
+## 🔍 Project Summary
 
-Walk-forward backtesting for realistic evaluation
+- **Stock**: American Airlines (Ticker: AAL), Tesla (Ticker: TSLA), and Microsoft (Ticker: MSFT)
+- **Model Type**: Deep Learning (LSTM + Additive Attention)
+- **Timeframe**: Historical data from 2015 to 2025
+- **Forecast**: Predict the next 4 days of closing prices
+- **Key Features**:
+  - Scaled input data
+  - 2-Layer LSTM with self-attention mechanism
+  - Interactive date-based prediction
+  - Real-time stock fetching via Yahoo Finance API
+  - Evaluation: MAE, RMSE, and Loss
+  - Visual output using Matplotlib & mplfinance
 
-Precision-based thresholding to avoid low-confidence trades
+---
 
-Tools & Libraries:
-Python, Pandas, Scikit-learn
+## 🚀 Features
 
-TensorFlow / Keras (LSTM)
+- 📊 Predict next 4-day closing prices from past 60 days
+- 📌 User-input interface to simulate predictions from past points
+- 🧠 Self-attention mechanism built into LSTM model
+- 📈 Visuals: candlestick chart + prediction overlay
+- 🧪 Evaluation metrics: MAE, RMSE, MSE
+- 📦 Extendable for other stocks like MSFT and TSLA
 
-yfinance (market data)
 
-NewsAPI + TextBlob (sentiment analysis)
-
-Matplotlib (visualization)
-
-Goal:
-Improve prediction accuracy and trading signal quality by fusing structured data (price, volume, international markets) and unstructured data (financial news sentiment).
-
-This project demonstrates the power of multi-modal data integration and serves as a foundation for building advanced quantitative trading strategies.
