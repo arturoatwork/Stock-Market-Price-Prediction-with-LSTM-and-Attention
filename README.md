@@ -31,4 +31,23 @@ The goal is to forecast the next 4 days of stock prices with an emphasis on mode
 - 🧪 Evaluation metrics: MAE, RMSE, MSE
 - 📦 Extendable for other stocks like MSFT and TSLA
 
+---
+
+🧠 Tech Stack
+
+ - Python 3.9+
+ - TensorFlow / Keras
+ - NumPy, Pandas, Matplotlib
+ - yfinance (data fetching)
+ - mplfinance (candlestick charting)
+
+⚙️ Model Architecture
+
+ - Input: Previous 60 closing prices
+ - 2 LSTM layers (50 units each, return sequences)
+ - Self-Attention (Keras AdditiveAttention)
+ - Dense output layer (predicts next day's price)
+ - Loss Function: Mean Squared Error
+ - Optimizer: Adam
+ - Evaluation Metrics: MAE, RMSE
 
