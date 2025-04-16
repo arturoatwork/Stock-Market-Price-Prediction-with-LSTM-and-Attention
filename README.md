@@ -2,7 +2,10 @@
 
 This project applies **Long Short-Term Memory (LSTM)** neural networks, enhanced with **Self-Attention**, to predict the stock prices of **American Airlines (AAL), Tesla (TSLA), and Microsoft (MSFT)** using the last 60 days of historical data.
 
-The goal is to forecast the next 4 days of stock prices with an emphasis on model flexibility, sequential learning, and real-time usability.
+The goal is to forecast the next 4 days of stock prices, emphasizing model flexibility, sequential learning, and real-time usability.
+
+You can change the ticker and input any stock you want. For the sake of this project, though, we are only focusing on those three.
+(NOTE: The last code segment in the file is for you to input any date you desire to see what the next 4 days will be like.)
 
 ---
 
