@@ -7,6 +7,7 @@ The goal is to forecast the next 4 days of stock prices, emphasizing model flexi
 You can change the ticker and input any stock you want. For the sake of this project, though, we are only focusing on those three.
 
 (NOTE: The last code segment in the file is for you to input any date you desire to see what the next 4 days will be like.)
+
 (NOTE: Key for file names: LSAMP is the company I am working with to conduct this project. FP stands for Finance Project.)
 
 ---
