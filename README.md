@@ -38,5 +38,14 @@ This project uses a deep learning model to predict future stock prices based on 
 - scikit-learn, pandas, numpy
 - yfinance (data), ta (indicators), matplotlib, mplfinance
 
+---
+
+## 📚 References & Inspiration
+
+This project was inspired by:
+
+- [Advanced Stock Pattern Prediction Using LSTM with Attention (Dr. Lee)](https://drlee.io/advanced-stock-pattern-prediction-using-lstm-with-the-attention-mechanism-in-tensorflow-a-step-by-143a2e8b0e95)
+
+Their work helped shape the attention-based forecasting architecture implemented here.
 
 
