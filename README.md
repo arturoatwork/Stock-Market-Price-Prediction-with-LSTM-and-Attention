@@ -13,7 +13,8 @@ This project uses a deep learning model to predict future stock prices based on 
 
 ---
 
-Academic Research Paper
+## Academic Research Paper
+
 This project was officially documented in a research paper titled:
 
 "An Efficient Deep Learning Model for Stock Market Prediction:
