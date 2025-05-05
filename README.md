@@ -2,7 +2,7 @@
 
 This project was funded by the LSAMP Program's "Research Experience" project - SP25. It was for students to conduct research in an area of their interest. 
 I was allowed to research the stock market using the model of my choice. It was to be presented at Molloy University in front of other researchers on 4/28/2025.
-The presentation PowerPoint will be attached to this repository.
+The presentation PowerPoint will be attached to this repository along with a Certificate to show proof of completion.
 Link to presentation slot (proof): https://digitalcommons.molloy.edu/murc/2025/all/26/
 
 This project uses a deep learning model to predict future stock prices based on historical data and technical indicators.
